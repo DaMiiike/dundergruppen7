@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+    color: white;
+}
+
+
+.section-top-bg {
+    background-image: url(../img/header_pic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 70% 0 0 5%;
+}
+
+section {
+    border-style: solid, red, 2px;
+}
