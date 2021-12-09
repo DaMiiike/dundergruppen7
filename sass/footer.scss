@@ -1,0 +1,35 @@
+footer {
+    background-color: lightblue;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 10rem;
+    display: flex;
+    justify-content: center;
+    font-size: 18px; 
+}
+.copy {
+    position: absolute;
+    bottom: 0;
+}
+.follow-contact {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+.footer-follow, .footer-contact {
+    padding: 3rem;
+    width: 50%;
+    text-align: center;
+}
+.img {
+    height: 1px;
+    width: 1px;
+    display: inline;
+}
+.fb-icon, .insta-icon, .twitter-icon {
+    margin-right: 2rem;
+}
+.material-icons-outlined {
+    padding-top: 20px;
+}
