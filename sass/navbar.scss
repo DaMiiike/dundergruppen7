@@ -12,13 +12,10 @@
     flex-direction: row;
     padding-top: 0.5rem;
 }
-.about {
+.about, .contact {
     font-size: 1rem;
     margin: 1rem;
-}
-.contact {
-    font-size: 1rem;
-    margin: 1rem;
+    padding-top: 1.2rem;
 }
 .icons {
   display: flex;
