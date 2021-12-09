@@ -1,15 +1,14 @@
 footer {
     background-color: lightblue;
-    position: absolute;
-    bottom: 0;
     width: 100%;
     min-height: 10rem;
     display: flex;
     justify-content: center;
-    font-size: 18px; 
+    font-size: 18px;  
 }
 .copy {
-    position: absolute;
+    display: flex;
+    justify-self: end;
     bottom: 0;
 }
 .follow-contact {
