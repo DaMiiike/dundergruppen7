@@ -2,24 +2,45 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
+    
 }
-
+// body {
+//     display: flex;
+// }
 h1 {
     font-size: 3rem;
     color: white;
+    
+}
+p{
+    font-size: 1rem;
+    color: white;
+    
 }
 
 
 .section-top-bg {
-    background-image: url(../img/header_pic.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background: url(../img/header_pic.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
     height: 100vh;
-    padding: 70% 0 0 5%;
-}
+    display: flex;
+    padding: 70% 0% 10% 5%;
+    border: 2px solid red;
+    justify-content: left;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    
 
-section {
-    border-style: solid, red, 2px;
+
 }
+// section.section-top-bg {
+//     padding: 70% 0 0 5%;
+// }
+
+// section {
+//     background-color: green;
+// }
