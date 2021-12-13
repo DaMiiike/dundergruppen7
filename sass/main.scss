@@ -27,11 +27,40 @@ p{
     height: 100vh;
     display: flex;
     padding: 70% 0% 10% 5%;
-    border: 2px solid red;
     justify-content: left;
     flex-direction: column-reverse;
     justify-content: flex-start;
+}
+.section-mid {
     
+    .display-pics {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .display-pic {
+        margin: 2%;
+        overflow: hidden;
+    }
+    .display-pic-1 {
+        height: auto;
+        width: 60%;
+        transform: rotate(90deg);
+        
+    }
+    .display-pic-2 {
+        height: auto;
+        width: 40%;
+    }
+    h1 {
+        color: black;
+        text-transform: uppercase;
+    }
+    .section-mid-text {
+        float: right;
+        text-align: right;
+        margin-right: 2%;
+    }
 
 
 }
