@@ -1,3 +1,7 @@
+* {
+    border: 2px solid black;
+}
+
 footer {
     background-color: lightblue;
     width: 100%;
@@ -8,18 +12,19 @@ footer {
 }
 .copy {
     display: flex;
-    justify-self: end;
-    bottom: 0;
+    align-content: center;
 }
 .follow-contact {
     display: flex;
-    justify-content: center;
     width: 70%;
-}
-.footer-follow, .footer-contact {
     padding: 3rem;
+}
+.footer-follow {
     width: 50%;
-    text-align: center;
+}
+.footer-contact {
+    width: 50%;
+    text-align: right;
 }
 .img {
     height: 1px;
@@ -28,6 +33,7 @@ footer {
 }
 .fb-icon, .insta-icon, .twitter-icon {
     margin-right: 2rem;
+    margin-top: 2rem;
 }
 .material-icons-outlined {
     padding-top: 20px;
