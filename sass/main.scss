@@ -32,25 +32,38 @@ p{
     justify-content: flex-start;
 }
 .section-mid {
-    
+    margin: 1rem 0 1rem 0;
+
+    .pic-box-1 {
+        width: 55%;
+        height: 21.875rem;
+        margin-right: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .pic-box-2 {
+        width: 40%;
+        height: 21.875rem;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        overflow: hidden;
+    }
     .display-pics {
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
-    }
-    .display-pic {
-        margin: 2%;
-        overflow: hidden;
+        justify-content: center;
     }
     .display-pic-1 {
+        width: 100%;
         height: auto;
-        width: 60%;
         transform: rotate(90deg);
-        
     }
     .display-pic-2 {
-        height: auto;
-        width: 40%;
+        height: 100%;
+        width: auto;
     }
     h1 {
         color: black;
@@ -59,8 +72,7 @@ p{
     .section-mid-text {
         float: right;
         text-align: right;
+        margin-top: 1rem;
         margin-right: 2%;
     }
-
-
 }
