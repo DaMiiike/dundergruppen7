@@ -2,6 +2,7 @@
 @import "./footer.scss";
 @import "./partials.scss/button";
 @import "./admin.scss";
+@import "./products.scss";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
 * {
     margin: 0;
@@ -30,6 +31,10 @@ p {
     justify-content: left;
     flex-direction: column-reverse;
     justify-content: flex-start;
+}
+.section-mid-container {
+    display: flex;
+    flex-direction: column;
 }
 .section-mid {
     margin: 1rem 0 1rem 0;
@@ -79,5 +84,13 @@ p {
         text-align: right;
         margin-top: 1rem;
         margin-right: 2%;
+        width: 100%;
     }
+    .product-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    }
+  
 }
