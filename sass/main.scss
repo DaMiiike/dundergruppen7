@@ -3,6 +3,7 @@
 @import "./partials.scss/button";
 @import "./admin.scss";
 @import "./products.scss";
+@import "./produktsidor.scss";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
 * {
     margin: 0;
@@ -89,6 +90,8 @@ p {
     .product-section {
     display: flex;
     flex-direction: row;
+    width: 95vw;
+    height: 50vh;
     justify-content: space-around;
     
     }
