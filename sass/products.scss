@@ -1,0 +1,71 @@
+.section-mid {
+  display: flex;
+  flex-direction: row;
+  padding: 60px 60px 10px 60px;
+  justify-content: space-between;
+}
+
+.text-mid {
+  text-align: right;
+  padding: 0px 60px 50px 0px;
+}
+
+.products {
+  padding: 80px 60px 150px 60px;
+}
+
+.bottles {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.prod-text {
+  color: black;
+}
+
+.buyNow {
+  background-color: #76caca;
+  color: white;
+  border: none;
+  padding: 10px 30px 10px 30px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.buyNow:hover {
+  opacity: 0.8;
+  background-color: #e99fa4;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto 0;
+  padding: 80px 100px 150px 100px;
+}
+
+.gallery-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fa-heart {
+  border-color: none;
+  color: #e99fa4;
+  font-size: 1.5rem;
+  transition: 0.3s;
+  padding: 0px 20px 0px 20px;
+  cursor: pointer;
+}
+
+.fa-heart:hover {
+  color: #db6e78;
+}
