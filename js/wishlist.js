@@ -70,23 +70,21 @@ function setItems(product) {
   
    localStorage.setItem("productsInWishlist", JSON.stringify(wishlistItems));
 }
+
+let wishlistList = [];
  
 function displayWishlist() {
    let wishlistItems = localStorage.getItem("productsInWishlist");
    wishlistItems = JSON.parse(wishlistItems);
    let productContainer = document.querySelector(".products");
 
-   if (wishlistItems && productContainer) {
-       productContainer.innerHTML = "";
-       Object.values(wishlistItems).map(item => {
-           productContainer.innerHTML += `
-           <div class="product">
-           <span>${products.name}</span>
-           </div>
-           `
-       })
+   if (wishlistItems) {
+       const div = document.querySelector(".products")
+       div.innerHTML += `<li>${[products.name]}</li>`
+       wishlistList.push(wishlistItems)
+
+
    }
 }
-
 
 displayWishlist();
