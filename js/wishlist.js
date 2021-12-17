@@ -26,9 +26,7 @@ for (let i=0; i < wishlists.length; i++) {
 }
  
 function wishlistNumbers(product) {
- 
    let productNumbers = localStorage.getItem("wishlistNumbers");
-  
    productNumbers = parseInt(productNumbers);
  
    if (productNumbers) {
@@ -41,9 +39,11 @@ function wishlistNumbers(product) {
  
    setItems(product);
  
- 
 }
- 
+
+
+
+
 function setItems(product) {
   
    let wishlistItems = localStorage.getItem("productsInWishlist");
@@ -80,11 +80,11 @@ function displayWishlist() {
 
    if (wishlistItems) {
        const div = document.querySelector(".products")
-       div.innerHTML += `<li>${[products.name]}</li>`
+       if(document.querySelector(".products") != null) {
+       div.innerHTML += `<li>${wishlistList}</li>`
+       }
        wishlistList.push(wishlistItems)
 
 
    }
 }
-
-displayWishlist();
