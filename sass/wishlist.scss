@@ -1,0 +1,42 @@
+.wishlist-body {
+    background-image: url(/img/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(8px);
+}
+
+.wishlist-title {
+    margin-top: 7rem;
+    margin-left: 15rem;
+}
+
+.products-container {
+    background-color: yellow;
+    min-height: 30rem;
+    width: 60rem;
+    display:flex;
+    flex-wrap:wrap;
+    margin: auto;
+    
+    
+}
+
+.product-header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.product-title {
+    background-color: lavender;
+    width: 50%;
+    
+
+}
+
+.product-price {
+    background-color: lightblue;
+    width: 50%;
+    
+
+}
