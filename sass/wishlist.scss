@@ -11,32 +11,11 @@
 }
 
 .products-container {
-    background-color: yellow;
     min-height: 30rem;
     width: 60rem;
     display:flex;
     flex-wrap:wrap;
     margin: auto;
-    
-    
-}
-
-.product-header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-}
-
-.product-title {
-    background-color: lavender;
-    width: 50%;
-    
-
-}
-
-.product-price {
-    background-color: lightblue;
-    width: 50%;
-    
-
+    background-color: rgb(221, 221, 221);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
