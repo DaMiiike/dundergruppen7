@@ -1,5 +1,7 @@
 @import "./navbar.scss";
 @import "./footer.scss";
+@import "./partials.scss/button";
+@import "./admin.scss";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
 * {
     margin: 0;
@@ -7,18 +9,15 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
-    
 }
 h1 {
     font-size: 3rem;
     color: white;
     
 }
-p{
+p {
     font-size: 1rem;
-    color: white;
-    
-}
+    color: white}
 
 .section-top-bg {
     background: url(../img/header_pic.jpg) no-repeat;
@@ -30,6 +29,10 @@ p{
     justify-content: left;
     flex-direction: column-reverse;
     justify-content: flex-start;
+}
+.section-mid-container {
+    display: flex;
+    flex-direction: column;
 }
 .section-mid {
     margin: 1rem 0 1rem 0;
@@ -79,5 +82,15 @@ p{
         text-align: right;
         margin-top: 1rem;
         margin-right: 2%;
+        width: 100%;
     }
+    .product-section {
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    height: 50vh;
+    justify-content: space-around;
+    
+    }
+  
 }
