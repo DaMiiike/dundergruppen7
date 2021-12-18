@@ -55,7 +55,7 @@ function cartNumbers(product) {
     setItems(product);
     
 }
-// ================ Adding products in localstorage
+// ================ Adding products to cart in localstorage
 function setItems(product) {
     let cartItems = localStorage.getItem('productsInCart');
     cartItems = JSON.parse(cartItems);
