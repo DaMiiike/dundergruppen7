@@ -96,5 +96,36 @@ function totalCost(product) {
     }
 
 }
+function displayCart() {
+    let cartItems = localStorage.getItem("productsInCart");
+    let cartCost = localStorage.getItem('totalCost');
+    cartItems = JSON.parse(cartItems);
+    let productContainer = document.querySelector(".products");
+    
+
+    console.log(cartItems);
+    if(cartItems && productContainer) {
+        productContainer.innerHTML = '';
+        Object.values(cartItems).map(item => {
+            productContainer.innerHTML += `
+            <div class="product">
+                <span>${item.name}</span>
+                <span>${item.price} kr</span>
+                <span>${item.inCart} st</span>
+                <span>${item.inCart * item.price} kr</span>
+            </div>
+            
+            `;
+        });
+
+        productContainer.innerHTML += `
+        <div class="cartTotal">
+            <span>Total Cart Price${totalCost}</span>
+        </div>
+        `;
+
+    }
+}
 
 onLoadCartNumbers();
+displayCart();
