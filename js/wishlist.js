@@ -71,20 +71,28 @@ function setItems(product) {
    localStorage.setItem("productsInWishlist", JSON.stringify(wishlistItems));
 }
 
-let wishlistList = [];
- 
+
 function displayWishlist() {
-   let wishlistItems = localStorage.getItem("productsInWishlist");
-   wishlistItems = JSON.parse(wishlistItems);
-   let productContainer = document.querySelector(".products");
+    let wishlistItems = localStorage.getItem("productsInWishlist");
+    wishlistItems = JSON.parse(wishlistItems);
+    let wishlistContainer = document.querySelector(".wishlistProducts");
+    
 
-   if (wishlistItems) {
-       const div = document.querySelector(".products")
-       if(document.querySelector(".products") != null) {
-       div.innerHTML += `<li>${wishlistList}</li>`
-       }
-       wishlistList.push(wishlistItems)
-
-
-   }
+    console.log(wishlistItems);
+    if(wishlistItems && wishlistContainer) {
+        wishlistContainer.innerHTML = '';
+        
+        Object.values(wishlistItems).map(item => {
+            console.log(item)
+            wishlistContainer.innerHTML += `
+            <div class="product">
+                <span>${item.name}</span>
+            </div>
+            
+            `;
+            
+        })
+    }
 }
+
+displayWishlist();
