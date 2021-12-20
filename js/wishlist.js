@@ -85,7 +85,7 @@ function displayWishlist() {
         Object.values(wishlistItems).map(item => {
             console.log(item)
             wishlistContainer.innerHTML += `
-            <div class="product">
+            <div class="wishlistproduct">
                 <span>${item.name}</span>
             </div>
             
