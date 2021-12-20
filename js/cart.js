@@ -98,7 +98,7 @@ function totalCost(product) {
 }
 function displayCart() {
     let cartItems = localStorage.getItem("productsInCart");
-    let cartCost = localStorage.getItem('totalCost');
+    let totalCartCost = localStorage.getItem('totalCost');
     cartItems = JSON.parse(cartItems);
     let productContainer = document.querySelector(".products");
     
@@ -120,7 +120,7 @@ function displayCart() {
 
         productContainer.innerHTML += `
         <div class="cartTotal">
-            <span>Total Cart Price${totalCost}</span>
+            <span>Total Cart Price ${totalCartCost}</span>
         </div>
         `;
 
