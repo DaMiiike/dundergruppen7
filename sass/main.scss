@@ -1,10 +1,16 @@
 @import "./navbar.scss";
 @import "./footer.scss";
 @import "./partials.scss/button";
+@import "./partials.scss/btn-heart";
 @import "./admin.scss";
 @import "./products.scss";
+<<<<<<< HEAD
 @import "./about.scss";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
+=======
+@import "./wishlist.scss";
+@import "./cart.scss";
+>>>>>>> 6cc431c400da1224d3425d707e049e7238fbab58
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
 * {
   margin: 0;
