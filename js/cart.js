@@ -1,6 +1,6 @@
 let cart = document.querySelectorAll('.add-cart');
 
-let products = [
+let cartProducts = [
     {
         name: 'Pink Wonder Bottle',
         price: 299,
@@ -25,8 +25,8 @@ let products = [
 
 for (let i=0; i < cart.length; i++) {
     cart[i].addEventListener('click', () => {
-        cartNumbers(products[i]);
-        totalCost(products[i]);
+        cartNumbers(cartProducts[i]);
+        totalCost(cartProducts[i]);
     })
 }
 // ================== Check if there is anything in cart
@@ -100,7 +100,7 @@ function displayCart() {
     let cartItems = localStorage.getItem("productsInCart");
     let totalCartCost = localStorage.getItem('totalCost');
     cartItems = JSON.parse(cartItems);
-    let productContainer = document.querySelector(".products");
+    let productContainer = document.querySelector(".cart-products");
     
 
     console.log(cartItems);

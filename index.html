@@ -4,85 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="./script.js" defer></script>
+    <script src="./js/script.js" defer></script>
+    <script src="./js/wishlist.js" defer></script>
     <script src="./js/cart.js" defer></script>
     <link rel="stylesheet" href="./css/main.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca0aa0a931.js" crossorigin="anonymous"></script>
     <title>Dundergruppens WaterBottle</title>
 </head>
 <body>
-    <header class="header">
-        <img src="" alt="">
-    </header>
     <nav class="navbar">
         <div class="contact-about">
             <p class="contact">CONTACT</p>
             <p class="about">ABOUT</p>
         </div>
         <div class="icons">
-            <button class="material-icons-outlined" id="login-icon" >person</button>
-            <button class="material-icons-outlined" id="wishlist-icon" >favorite_border</button>
-            <a href="./cart.html" class="material-icons-outlined cart" id="cart-icon" >
-                shopping_cart <span>0</span>
-            
-            </a>
+            <a href="./admin.html" class="material-icons-outlined" id="login-icon" >person</a>
+            <a href="./wishlist.html" class="material-icons-outlined" id="wishlist-icon" >favorite_border</a>
+            <a href="./cart.html" class="material-icons-outlined cart" id="cart-icon" >shopping_cart <span>0</span></a>
         </div>
     </nav>  
     <main>
 
         <section class="section-top-bg">
             <div class="content-top-bg">
-                <h1>DUNDERGRUPPENS <br> WATER BOTTLE</h1>
-                <p>I en affär nära dig. Miljövänlig och så är den också</p>
+                <h1>DUNDERGRUPPENS <br> WONDER BOTTLE</h1>
+                <p class="header-paragraph">I en affär nära dig. Miljövänlig och så är den också.</p>
+                <br><br>
                 <button class="button">READ MORE</button>
             </div>
         </section>
-        <section class="section-mid-container">
-            <div class="section-mid">
-                <div class="display-pics">
-                    <div class="pic-box-1"><img class="display-pic display-pic-1" src="img/colors.jpg"></div>
-                    <div class="pic-box-2">
-                        <img class="display-pic display-pic-2" src="img/produkt_pic2.jpg">
-                        <h2 class="pic-box-text">ECO FRIENDLY <br>AND THERMAL</h2>
-                    </div>
-                </div>
-                <div class="section-mid-text">
-                    <h1 class="section-mid-h1">A water bottle made <br> of stainless steel</h1>
-                    <button class="button">BUY NOW</button>
-                </div>
-                <div class="product-section">
-                    <div class="product1">
-                        <img src="" alt="">
-                        <h3 class="product-name">Pink Wonder Bottle</h3>
-                        <p class="product-price">299</p>
-                        <button class="add-cart button">BUY</button>
-                        <button class="btn-heart">&hearts;</button>
-                    </div>
-                    <div class="product2">
-                        <img src="" alt="">
-                        <h3 class="product-name">Blue Wonder Bottle</h3>
-                        <p class="product-price">299</p>
-                        <button class="add-cart button">BUY</button>
-                        <button class="btn-heart">&hearts;</button>
-                    </div>
-                    <div class="product3">
-                        <img src="" alt="">
-                        <h3 class="product-name">Green Wonder Bottle</h3>
-                        <p class="product-price">299</p>
-                        <button class="add-cart button">BUY</button>
-                        <button class="btn-heart">&hearts;</button>
-                    </div>
-                    <div class="product4">
-                        <img src="" alt="">
-                        <h3 class="product-name">Red Wonder Bottle</h3>
-                        <p class="product-price">299</p>
-                        <button class="add-cart button">BUY</button>
-                        <button class="btn-heart">&hearts;</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
+       
+    <div class="section-mid">
+      <div class="pic1">
+        <img src="img/colors_cropped.jpg" height="470px" />
+      </div>
+      <div class="pic2"><img src="img/produkt_pic2.jpg" height="470px" /></div>
+    </div>
+    <div class="text-mid">
+      <h1>A WATER BOTTLE MADE OF <br />STAINLESS STEEL</h1>
+      <button class="buyNow">BUY NOW</button>
+    </div>
+
+    <div class="products">
+      <div class="bottles_header">
+        <h2 style="font-size: 30px;">BUY YOURS TODAY</h2>
+        <hr />
+      </div>
+
+      <div class="prod_pic13">
+        <img src="/img/product_pic13.png" height="300px" />
+        <p class="prod-text">
+          <span style="font-weight: bold">PINK BOTTLE</span> <br />1000ml
+          BPA-free and toxin free<br /><br /><span style="font-size: 25px; color: black;">299kr</p>
+        <br /><button class="buyNow add-cart">BUY NOW</button>
+        <button class="btn-heart">&hearts;</button>
+      </div>
+
+      <div class="bottles">
+        <div class="prod_pic10">
+          <img src="/img/product_pic10.png" height="300px" />
+          <p class="prod-text">
+            <span style="font-weight: bold">BLUE BOTTLE</span> <br />1000ml
+            BPA-free and toxin free<br /><br /><span style="font-size: 25px; color: black;">299kr</p>
+          <br /><button class="buyNow add-cart">BUY NOW</button>
+          <button class="btn-heart">&hearts;</button>
+        </div>
+
+        <div class="prod_pic11">
+          <img src="/img/product_pic11.png" height="300px" />
+          <p class="prod-text">
+            <span style="font-weight: bold">GREEN BOTTLE</span><br />1000ml
+            BPA-free and toxin free<br /><br /><span style="font-size: 25px; color: black;">299kr</p>
+          <br /><button class="buyNow add-cart">BUY NOW</button>
+          <button class="btn-heart">&hearts;</button>
+        </div>
+
+        <div class="prod_pic12">
+          <img src="/img/product_pic12.png" height="300px" />
+          <p class="prod-text">
+            <span style="font-weight: bold">RED BOTTLE</span> <br />1000ml
+            BPA-free and toxin free<br /><br /><span style="font-size: 25px; color: black;">299kr</p>
+          <br /><button class="buyNow add-cart">BUY NOW</button>
+          <button class="btn-heart">&hearts;</button>
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="gallery">
+        <img src="/img/bottle_cheers_cropped.jpg" alt="" width="900px"> 
+        <div class="gallery-small">
+        <img src="/img/bottle_water.jpg" alt="" width="300px" aria-controls="kit"> <img src="/img/botttle_train.jpg" alt="" width="300px"></div>
+    </div>
     <footer>
     <section class="follow-contact">
         <div class="footer-follow">
