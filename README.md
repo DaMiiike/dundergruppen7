@@ -24,13 +24,14 @@ Merge -
         - solve any conflicts and test the website to make sure it works properly. Then commit any changes you made, then push.
 
     git commit -m "come up with a explaining message"
-    git push
+    git push origing -your local branch name-
 
     3. When all conflicts are solved and everything is pushed, head back to Main branch to merge your working branch into Main branch.
 
     Steps:
     git checkout main
     git merge -your local branch name-
+    git push origin main
 
     4. Test the website and make sure it is working properly. Done!
 
