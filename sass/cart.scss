@@ -41,6 +41,7 @@
         display: flex;
         justify-content: flex-end;
         margin: 2% 5% 0 0;
+        font-weight: bold;
     }
     .cart-purchase-btn {
         margin: 2%;
@@ -60,5 +61,6 @@
             max-height: 100px;
             width: auto;
             height: auto;
+            border-radius: 100px;
         }
 }
