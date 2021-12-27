@@ -1,6 +1,7 @@
 function nameDisplayCheck() {
 
     const productContainer = document.querySelector(".newproducts")
+    
 
     console.log(productContainer)
 
@@ -12,9 +13,8 @@ function nameDisplayCheck() {
         productContainer.innerHTML += 
         `<div>
          <div>
-          <img src="${newProduct.inputImg}" height="300px" />
           <p class="prod-text">
-            <span style="font-weight: bold">${newProduct.inputName}</span><br />${newProduct.inputDesc}<br /><br /><span style="font-size: 25px; color: black;">${newProduct.inputPrice}</p>
+            <span style="font-weight: bold">${newProduct.inputName}</span><br />${newProduct.inputDesc}<br /><br /><span style="font-size: 25px; color: black;">${newProduct.inputPrice}kr</p>
           <br /><button class="buyNow add-cart">BUY NOW</button>
           <button class="btn-heart">&hearts;</button>
         </div>
@@ -22,8 +22,8 @@ function nameDisplayCheck() {
 
     }
 
-
 }
 
 nameDisplayCheck(); 
+
 
