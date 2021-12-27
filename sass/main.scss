@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap');
 @import "./wishlist.scss";
 @import "./cart.scss";
+@import "./api.scss";
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap");
 * {
   margin: 0;
@@ -34,16 +35,26 @@ p {
 }
 
 .section-top-bg {
-  background: url(../img/header_pic.jpg) no-repeat;
-  background-size: 100% auto;
-  background-position: bottom;
-  height: 100vh;
   display: flex;
-  padding: 70% 0% 10% 5%;
-  justify-content: left;
-  flex-direction: column-reverse;
-  justify-content: flex-start;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: url(../img/header_pic.jpg) no-repeat;
+  background-size: cover;
+  background-position: top;
 }
+
+.content-top-bg {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  margin-top: 35%;
+  width: 650px;
+}
+.button-top-bg {
+  width: 200px;
+}
+
 .section-mid-container {
   display: flex;
   flex-direction: column;
@@ -56,7 +67,7 @@ h1 {
 .section-mid-text {
   float: right;
   text-align: right;
-  margin-top: 1rem;
+  margin-top: 0.1rem;
   margin-right: 2%;
   width: 100%;
 }

@@ -1,6 +1,25 @@
-.about_section{
-border: 2px solid blue;
-} 
-.about_section {
-    font-weight: bolder;
+body{
+background-color: lightblue; 
+
 }
+
+.about_div{
+display: flex;
+position:relative;
+
+}
+.about_section {
+display: flex;
+flex-direction: column;
+align-items: center;
+max-width: 40rem;
+align-content: space-between;
+line-height: 2.5;
+margin-left: 27rem;
+margin-top: 7em;
+} 
+.about_headline {
+display: flex;
+justify-self: center;
+
+} 
