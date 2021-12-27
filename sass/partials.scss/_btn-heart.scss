@@ -1,10 +1,12 @@
 .btn-heart {
-    background-color: transparent;
-    border-color: transparent;
-    color: rgb(250, 177, 240);
-    font-size: 2rem;
-    opacity: 0.8;
-    transition: 0.3s; 
-    padding: 0.2rem;
-  }
-.btn-heart:hover {opacity: 1}
+  background-color: transparent;
+  border-color: transparent;
+  color: #e99fa4;
+  font-size: 2rem;
+  opacity: 0.8;
+  transition: 0.3s;
+  padding: 0.2rem;
+}
+.btn-heart:hover {
+  opacity: 1;
+}
