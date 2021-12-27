@@ -127,6 +127,7 @@ function displayCart() {
         <div class="cartTotal">
             <span>Total Cart Price ${totalCartCost} kr</span>
         </div>
+        <button class="buyNow cart-purchase-btn">Purchase</button>
         `;
 
     }
