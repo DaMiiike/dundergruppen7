@@ -1,10 +1,4 @@
-/* 
-function allProducts(products, htmlId) {
 
-    products.map(product) => {
-
-    }
-} */
 
 let productPage = document.querySelectorAll('');
 
