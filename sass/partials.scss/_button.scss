@@ -1,4 +1,5 @@
-.button {
+.button,
+.button-top-bg {
   background-color: #76caca;
   border: none;
   color: white;
@@ -9,7 +10,8 @@
   cursor: pointer;
 }
 
-.button:hover {
+.button:hover,
+.button-top-bg:hover {
   opacity: 0.8;
   background-color: #e99fa4;
 }
