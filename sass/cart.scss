@@ -23,11 +23,39 @@
     width: 100%;
 }
 .product-title {
-    width: 40%;
+    width: 50%;
 }
 .product-price {
-width: 40%;
+    width: 20%;
 }
 .product-quantity {
     width: 20%;
+}
+
+.cart-products {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .cartTotal {
+        display: flex;
+        justify-content: flex-end;
+        margin: 2% 5% 0 0;
+    }
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: black dotted 2px;
+    margin: 0 5%;
+    
+
+    img {
+            max-width: 50px;
+            max-height: 100px;
+            width: auto;
+            height: auto;
+        }
 }
