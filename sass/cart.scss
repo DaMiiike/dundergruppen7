@@ -1,66 +1,67 @@
 .cart-body {
-    background-image: url(/img/background.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(8px);
+  background-image: url(/img/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
 }
 .cart-title {
-    margin-top: 7rem;
-    margin-left: 15rem;
+  margin-top: 7rem;
+  margin-left: 15rem;
 }
 .products-container {
-    min-height: 30rem;
-    width: 60rem;
-    display:flex;
-    flex-wrap:wrap;
-    margin: auto;
-    background-color: rgb(221, 221, 221);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  min-height: 30rem;
+  width: 60rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: rgb(221, 221, 221);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 3rem;
 }
 .product-header {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 .product-title {
-    width: 50%;
+  width: 50%;
 }
 .product-price {
-    width: 20%;
+  width: 20%;
 }
 .product-quantity {
-    width: 20%;
+  width: 20%;
 }
 
 .cart-products {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 
-    .cartTotal {
-        display: flex;
-        justify-content: flex-end;
-        margin: 2% 5% 0 0;
-        font-weight: bold;
-    }
-    .cart-purchase-btn {
-        margin: 2%;
-    }
+  .cartTotal {
+    display: flex;
+    justify-content: flex-end;
+    margin: 2% 5% 0 0;
+    font-weight: bold;
+  }
+  .cart-purchase-btn {
+    margin: 2%;
+  }
 }
 
 .product {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: black dotted 2px;
-    margin: 0 5%;
-    
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: black dotted 2px;
+  margin: 0 5%;
 
-    img {
-            max-width: 50px;
-            max-height: 100px;
-            width: auto;
-            height: auto;
-            border-radius: 100px;
-        }
+  img {
+    max-width: 50px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    border-radius: 100px;
+  }
 }
