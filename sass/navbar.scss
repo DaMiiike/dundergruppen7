@@ -13,7 +13,7 @@
 .contact-about {
   display: flex;
   flex-direction: row;
-  padding-top: 1.8rem;
+  /* padding-top: 1.8rem; */
 }
 
 .about,
@@ -34,7 +34,13 @@
   background-color: transparent;
   border-color: transparent;
 } */
-#login-icon, #wishlist-icon, #cart-icon {
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+#login-icon, #wishlist-icon, #cart-icon, #info-icon, #home-icon, #phone_in_talk {
     display: flex;
     flex-direction: row;
     margin-right: 2rem;
@@ -42,10 +48,17 @@
     margin-top: 2rem;
     padding-top: 1rem;  
     color: white;
-    background-color:rgba(0,0,0,0.5);;
+    background-color:rgba(188, 183, 186, 0.5);;
     border-color: transparent;
 }
-.icons {
-    display: flex;
-    flex-direction: row;
-}
+/* #home-icon{
+display: flex;
+flex-direction: row;
+justify-content: center;
+color: white;
+background-color:rgba(0,0,0,0.5);;
+    border-color: transparent;
+} */
+
+
+
