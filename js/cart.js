@@ -5,21 +5,25 @@ let cartProducts = [
         name: 'Pink Wonder Bottle',
         price: 299,
         inCart: 0,
+        img: '/img/product_pic13.png',
     },
     {
         name: 'Blue Wonder Bottle',
         price: 299,
         inCart: 0,
+        img: '/img/product_pic10.png',
     },
     {
         name: 'Green Wonder Bottle',
         price: 299,
         inCart: 0,
+        img: '/img/product_pic11.png',
     },
     {
         name: 'Red Wonder Bottle',
         price: 199,
         inCart: 0,
+        img: '/img/product_pic12.png',
     },
 ];
 
@@ -109,6 +113,7 @@ function displayCart() {
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
             <div class="product">
+                <img src="${item.img}"/>
                 <span>${item.name}</span>
                 <span>${item.price} kr</span>
                 <span>${item.inCart} st</span>
@@ -120,8 +125,9 @@ function displayCart() {
 
         productContainer.innerHTML += `
         <div class="cartTotal">
-            <span>Total Cart Price ${totalCartCost}</span>
+            <span>Total Cart Price ${totalCartCost} kr</span>
         </div>
+        <button class="buyNow cart-purchase-btn">Purchase</button>
         `;
 
     }
