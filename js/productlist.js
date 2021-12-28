@@ -1,6 +1,6 @@
 
-
-let productPage = document.querySelectorAll('');
+/* 
+let productPage = document.querySelectorAll(''); */
 
 let productList = [
     {
@@ -54,33 +54,3 @@ let productList = [
     },
 ];
 
-function showProducts() {
-    let productItems = localStorage.getItem("productDisplay");
-    let totalCartCost = localStorage.getItem('totalCost');
-    productItems = JSON.parse(productItems);
-    let productContainer = document.querySelector(".cart-products");
-    
-
-    console.log(cartItems);
-    if(cartItems && productContainer) {
-        productContainer.innerHTML = '';
-        Object.values(cartItems).map(item => {
-            productContainer.innerHTML += `
-            <div class="productPages">
-                <span>${item.name}</span>
-                <span>${item.price} kr</span>
-                <span>${item.inCart} st</span>
-                <span>${item.inCart * item.price} kr</span>
-            </div>
-            
-            `;
-        });
-
-        productContainer.innerHTML += `
-        <div class="cartTotal">
-            <span>Total Cart Price ${totalCartCost}</span>
-        </div>
-        `;
-
-    }
-}
