@@ -8,13 +8,14 @@
 }
 
 .contact-about {
-  display: inline;
   display: flex;
   flex-direction: row;
   padding-top: 1.8rem;
 }
+
 .about,
 .contact {
+  display: flex;
   font-size: 1rem;
   margin: 1rem;
 }
