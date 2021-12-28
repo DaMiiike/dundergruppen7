@@ -140,9 +140,8 @@ onLoadCartNumbers();
 displayCart();
 
 function userInfo() {
-    // let thankYou = document.getElementById(".checkout-container")
-    let purchaseGreeting = document.querySelector(".products-container");
-    purchaseGreeting.innerHTML = "Thank you for your purchase! 🥳";
+    let purchaseGreeting = document.querySelector(".greeting");
+    purchaseGreeting.innerHTML = `Thank you for shopping at WonderBottle! 🎉 <br><a href="index.html"<button class="buyNow" style="height: 43px; text-decoration: none;">CONTINUE SHOPPING</button></a>`;
   }
   let userButton = document.querySelector(".buyNow");
   userButton.addEventListener("click", userInfo);

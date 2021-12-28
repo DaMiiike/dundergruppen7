@@ -26,23 +26,17 @@
   width: 100%;
 }
 .product-title {
-<<<<<<< HEAD
-  width: 40%;
-}
-.product-price {
-  width: 40%;
-=======
   width: 50%;
 }
-.product-price {
-  width: 20%;
->>>>>>> main
-}
-.product-quantity {
+
+.product-price, .product-quantity {
   width: 20%;
 }
-<<<<<<< HEAD
-=======
+
+.greeting {
+  font-size: 40px;
+  justify-content: center;
+}
 
 .cart-products {
   display: flex;
@@ -75,4 +69,3 @@
     border-radius: 100px;
   }
 }
->>>>>>> main
