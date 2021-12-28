@@ -5,21 +5,25 @@ let cartProducts = [
         name: 'Pink Wonder Bottle',
         price: 299,
         inCart: 0,
+        img: '/img/product_pic13.png',
     },
     {
         name: 'Blue Wonder Bottle',
         price: 299,
         inCart: 0,
+        img: '/img/product_pic10.png',
     },
     {
         name: 'Green Wonder Bottle',
         price: 299,
         inCart: 0,
+        img: '/img/product_pic11.png',
     },
     {
         name: 'Red Wonder Bottle',
         price: 199,
         inCart: 0,
+        img: '/img/product_pic12.png',
     },
 ];
 
@@ -109,10 +113,18 @@ function displayCart() {
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
             <div class="product">
+<<<<<<< HEAD
             <span>${item.name}</span>
             <span>${item.price} kr</span>
             <span>${item.inCart} st</span>
             <span>${item.inCart * item.price} kr</span>
+=======
+                <img src="${item.img}"/>
+                <span>${item.name}</span>
+                <span>${item.price} kr</span>
+                <span>${item.inCart} st</span>
+                <span>${item.inCart * item.price} kr</span>
+>>>>>>> main
             </div>
             
             `;
@@ -120,8 +132,15 @@ function displayCart() {
         
         productContainer.innerHTML += `
         <div class="cartTotal">
+<<<<<<< HEAD
         <span>Total Cart Price ${totalCartCost}</span>
+=======
+            <span>Total Cart Price ${totalCartCost} kr</span>
+>>>>>>> main
         </div>
+        <a href="checkout.html">
+        <button class="buyNow cart-purchase-btn">Purchase</button>
+        </a>
         `;
         
     }

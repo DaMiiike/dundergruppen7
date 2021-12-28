@@ -1,3 +1,112 @@
+.section_1 {
+    /*  border: 2px solid hotpink; */
+     padding: 2rem;
+     margin: 2rem;
+     display: flex;
+     justify-content: center;
+   }
+   
+   .div_1 {
+     /* border: 2px solid slateblue; */
+     padding: 2rem;
+     width: fit-content;
+   }
+   
+   .div_2 {
+     /* border: 2px solid greenyellow; */
+     width: fit-content;
+     margin: 2rem;
+   }
+   
+   .img_1 {
+     width: 25rem;
+     height: 40rem;
+   }
+   
+   .headline {
+     /* border: 2px solid olive; */
+     font-size: 4rem;
+   }
+   
+   .underline {
+     /* border: 2px solid orangered; */
+     margin: 1rem;
+   }
+   .p_1 {
+     /* border: 2px solid saddlebrown; */
+     font-size: 3rem;
+     width: fit-content;
+     margin: 3rem;
+   }
+   
+   .button_1 {
+    background-color: rgb(107, 186, 231);
+    border-color: transparent;
+    color: white;
+     font-weight: bold;
+     font-size: 2rem;
+     padding: 25px;
+     margin: 2rem;
+   }
+   
+   .list_1 {
+    /*  border: 2px solid lightseagreen; */
+     width: fit-content;
+     line-height: 175%;
+     margin: 2rem;
+   }
+   .list_h1{
+   margin-bottom: 1rem;
+   }
+   
+   .section_2 {
+    /*  border: 2px solid yellow; */
+     padding: 2rem;
+     margin: 2rem;
+   }
+   
+   .div_3 {
+    /*  border: 2px solid grey; */
+     display: flex;
+     justify-content: center;
+   }
+   
+   .img_2 {
+    /*  border: 2px solid rgb(183, 162, 203); */
+     display: flex;
+     padding: 2rem;
+     justify-self: center;
+   }
+   
+   .div_4 {
+   /*   border: 2px solid blue; */
+     display: flex;
+   }
+   
+   .section_2_headline {
+    /*  border: 2px solid green; */
+     display: flex;
+     text-align: center;
+     justify-content: center;
+     font-size: 2rem;
+     margin: 2rem;
+     padding: 2rem;
+     width: fit-content;
+     height: fit-content;
+   }
+   
+   .p_2_product {
+    /*  border: 2px solid orchid; */
+     display: flex;
+     text-align: center;
+     font-size: 1.25rem;
+     width: 35rem;
+     height: fit-content;
+     line-height: 2.5;
+     padding: 2rem;
+     margin: 2rem;
+   }
+   
 .section-mid {
   width: 100%;
   padding: 60px 60px 10px 60px;
@@ -53,4 +162,8 @@
 .buyNow:hover {
   opacity: 0.8;
   background-color: #e99fa4;
+}
+
+.p_2_product{
+color: black;
 }

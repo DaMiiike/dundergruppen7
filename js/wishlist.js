@@ -1,6 +1,6 @@
 let wishlists = document.querySelectorAll(".btn-heart");
  
-let products = [
+let wishlistProducts = [
    {
        name: "Pink Bottle",
        price: 299,
@@ -21,16 +21,16 @@ let products = [
  
 for (let i=0; i < wishlists.length; i++) {
    wishlists[i].addEventListener("click", () => {
-       wishlistNumbers(products[i]);
+       wishlistNumbers(wishlistProducts[i]);
 })
 }
  
 function wishlistNumbers(product) {
-   let productNumbers = localStorage.getItem("wishlistNumbers");
-   productNumbers = parseInt(productNumbers);
+   let productsNumbers = localStorage.getItem("wishlistNumbers");
+   productsNumbers = parseInt(productsNumbers);
  
-   if (productNumbers) {
-       localStorage.setItem("wishlistNumbers", productNumbers + 1);
+   if (productsNumbers) {
+       localStorage.setItem("wishlistNumbers", productsNumbers + 1);
        
    } else {
        localStorage.setItem("wishlistNumbers", 1);
@@ -66,7 +66,7 @@ function setItems(product) {
    }
   
    }
- 
+
   
    localStorage.setItem("productsInWishlist", JSON.stringify(wishlistItems));
 }
