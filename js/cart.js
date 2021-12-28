@@ -113,18 +113,11 @@ function displayCart() {
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
             <div class="product">
-<<<<<<< HEAD
-            <span>${item.name}</span>
-            <span>${item.price} kr</span>
-            <span>${item.inCart} st</span>
-            <span>${item.inCart * item.price} kr</span>
-=======
                 <img src="${item.img}"/>
                 <span>${item.name}</span>
                 <span>${item.price} kr</span>
                 <span>${item.inCart} st</span>
                 <span>${item.inCart * item.price} kr</span>
->>>>>>> main
             </div>
             
             `;
@@ -132,15 +125,11 @@ function displayCart() {
         
         productContainer.innerHTML += `
         <div class="cartTotal">
-<<<<<<< HEAD
-        <span>Total Cart Price ${totalCartCost}</span>
-=======
             <span>Total Cart Price ${totalCartCost} kr</span>
->>>>>>> main
         </div>
-        <a href="checkout.html">
+        
         <button class="buyNow cart-purchase-btn">Purchase</button>
-        </a>
+        
         `;
         
     }
@@ -151,8 +140,9 @@ onLoadCartNumbers();
 displayCart();
 
 function userInfo() {
-    let h1 = document.querySelector(".products-container");
-    h1.innerHTML = "Thank you for your purchase! 🥳";
+    // let thankYou = document.getElementById(".checkout-container")
+    let purchaseGreeting = document.querySelector(".products-container");
+    purchaseGreeting.innerHTML = "Thank you for your purchase! 🥳";
   }
-  let userButton = document.querySelector("button");
+  let userButton = document.querySelector(".buyNow");
   userButton.addEventListener("click", userInfo);
