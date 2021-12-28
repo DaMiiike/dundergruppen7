@@ -2,7 +2,7 @@
 
 let productPage = document.querySelectorAll('');
 
-let cartProducts = [
+let productList = [
     {
         name: 'Pink Wonder Bottle',
         price: 299,
@@ -13,6 +13,7 @@ let cartProducts = [
         material: 'Produced in Sweden in stainless steel' + 'BPA-free & toxin free',
         features: 'Capacity to keep both warm and cold beverages',
         inCart: 0,
+        img: '/img/product_pic13.png',
     },
 
     {
@@ -25,6 +26,7 @@ let cartProducts = [
         material: 'Produced in Sweden in stainless steel' + 'BPA-free & toxin free',
         features: 'Capacity to keep both warm and cold beverages',
         inCart: 0,
+        img: '/img/product_pic10.png',
     },
     {
         name: 'Green Wonder Bottle',
@@ -36,6 +38,7 @@ let cartProducts = [
         material: 'Produced in Sweden in stainless steel' + 'BPA-free & toxin free',
         features: 'Capacity to keep both warm and cold beverages',
         inCart: 0,
+        img: '/img/product_pic11.png',
     },
     {
         name: 'Red Wonder Bottle',
@@ -47,6 +50,37 @@ let cartProducts = [
         material: 'Produced in Sweden in stainless steel' + 'BPA-free & toxin free',
         features: 'Capacity to keep both warm and cold beverages',
         inCart: 0,
+        img: '/img/product_pic12.png'
     },
 ];
 
+function showProducts() {
+    let productItems = localStorage.getItem("productDisplay");
+    let totalCartCost = localStorage.getItem('totalCost');
+    productItems = JSON.parse(productItems);
+    let productContainer = document.querySelector(".cart-products");
+    
+
+    console.log(cartItems);
+    if(cartItems && productContainer) {
+        productContainer.innerHTML = '';
+        Object.values(cartItems).map(item => {
+            productContainer.innerHTML += `
+            <div class="productPages">
+                <span>${item.name}</span>
+                <span>${item.price} kr</span>
+                <span>${item.inCart} st</span>
+                <span>${item.inCart * item.price} kr</span>
+            </div>
+            
+            `;
+        });
+
+        productContainer.innerHTML += `
+        <div class="cartTotal">
+            <span>Total Cart Price ${totalCartCost}</span>
+        </div>
+        `;
+
+    }
+}
