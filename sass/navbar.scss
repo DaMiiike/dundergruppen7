@@ -5,6 +5,7 @@
     height: 7rem;
     position: fixed;
     width: 100%;
+    text-decoration: none;
 }
 .contact-about {
     display: inline;
@@ -19,10 +20,15 @@
 #login-icon, #wishlist-icon, #cart-icon {
     display: flex;
     flex-direction: row;
-    margin-right: 5rem;
-    margin-left: 5rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
     padding-top: 1rem;  
     color: white;
     background-color: transparent;
     border-color: transparent;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
 }
