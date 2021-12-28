@@ -102,30 +102,38 @@ function displayCart() {
     cartItems = JSON.parse(cartItems);
     let productContainer = document.querySelector(".cart-products");
     
-
+    
     console.log(cartItems);
     if(cartItems && productContainer) {
         productContainer.innerHTML = '';
         Object.values(cartItems).map(item => {
             productContainer.innerHTML += `
             <div class="product">
-                <span>${item.name}</span>
-                <span>${item.price} kr</span>
-                <span>${item.inCart} st</span>
-                <span>${item.inCart * item.price} kr</span>
+            <span>${item.name}</span>
+            <span>${item.price} kr</span>
+            <span>${item.inCart} st</span>
+            <span>${item.inCart * item.price} kr</span>
             </div>
             
             `;
         });
-
+        
         productContainer.innerHTML += `
         <div class="cartTotal">
-            <span>Total Cart Price ${totalCartCost}</span>
+        <span>Total Cart Price ${totalCartCost}</span>
         </div>
         `;
-
+        
     }
 }
 
+
 onLoadCartNumbers();
 displayCart();
+
+function userInfo() {
+    let h1 = document.querySelector(".products-container");
+    h1.innerHTML = "Thank you for your purchase! 🥳";
+  }
+  let userButton = document.querySelector("button");
+  userButton.addEventListener("click", userInfo);
