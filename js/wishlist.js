@@ -37,14 +37,14 @@ function wishlistNumbers(product) {
        
    }
  
-   setItems(product);
+   setWishItems(product);
  
 }
 
 
 
 
-function setItems(product) {
+function setWishItems(product) {
   
    let wishlistItems = localStorage.getItem("productsInWishlist");
    wishlistItems = JSON.parse(wishlistItems);
