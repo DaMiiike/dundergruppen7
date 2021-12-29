@@ -82,12 +82,10 @@ function displayWishlist() {
     let wishlistContainer = document.querySelector(".wishlistProducts");
     
 
-    console.log(wishlistItems);
     if(wishlistItems && wishlistContainer) {
         wishlistContainer.innerHTML = '';
         
         Object.values(wishlistItems).map(item => {
-            console.log(item)
             wishlistContainer.innerHTML += `
             <div class="wishlistproduct">
                 <img src="${item.img}"/>
