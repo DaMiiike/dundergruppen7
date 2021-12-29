@@ -1,7 +1,17 @@
 .contact_body{
 background-color: lightblue; 
-display: flex;
+
 }
-.section_contact{
+.contact_section{
     display: flex;
+    position: relative;
+    
+    
+    
+}
+.contact_div{
+    border: 2px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+    
 }
