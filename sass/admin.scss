@@ -1,36 +1,37 @@
 ::placeholder {
-    color: white;
+  color: white;
 }
 
 .admin-body {
-    display: flex;
-    justify-content: center;
-    background-image: url(/img/background.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    backdrop-filter: blur(8px);
+  display: flex;
+  justify-content: center;
+  background-image: url(/img/background.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(8px);
 }
 .admin-form {
-    height: 35rem;
-    width: 25rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
-    padding-top: 2rem;
-    background-color: rgb(221, 221, 221);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  height: 35rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  padding-top: 2rem;
+  background-color: rgb(221, 221, 221);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 input {
-    width: 20rem;
-    height: 2rem;
-    margin-bottom: 2rem;
-    font-size: 17px;
-    background-color: transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-left-color: transparent;
-    border-bottom-color: rgb(107, 186, 231);
-    color: white;
+  width: 20rem;
+  height: 2rem;
+  margin-bottom: 2rem;
+  font-size: 17px;
+  background-color: transparent;
+  border-top-color: transparent;
+  border-right-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: rgb(107, 186, 231);
+  color: white;
 }

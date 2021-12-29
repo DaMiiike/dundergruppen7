@@ -16,6 +16,5 @@ inputBtn.addEventListener("click", function() {
     const inputPrice = document.querySelector(".input-product-price").value; 
     localStorage.setItem("newProduct", JSON.stringify({inputName, inputDesc, inputPrice}));
     
-    console.log(inputName)
 
 })

@@ -1,6 +1,4 @@
 
-/* 
-let productPage = document.querySelectorAll(''); */
 
 let productList = [
     {
