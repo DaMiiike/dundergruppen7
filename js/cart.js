@@ -88,8 +88,6 @@ function setItems(product) {
 function totalCost(product) {
 
     let cartCost = localStorage.getItem('totalCost');
-    console.log("Totala kostnaden är", cartCost);
-    console.log(typeof cartCost);
     
     if(cartCost != null) {
         cartCost = parseInt(cartCost);
@@ -107,7 +105,6 @@ function displayCart() {
     let productContainer = document.querySelector(".cart-products");
     
 
-    console.log(cartItems);
     if(cartItems && productContainer) {
         productContainer.innerHTML = '';
         Object.values(cartItems).map(item => {

@@ -4,18 +4,22 @@ let wishlistProducts = [
    {
        name: "Pink Bottle",
        price: 299,
+       img: '/img/product_pic13.png',
    },
    {
        name: "Blue Bottle",
        price: 299,
+       img: '/img/product_pic10.png',
    },
    {
        name: "Green Bottle",
        price: 299,
+       img: '/img/product_pic11.png',
    },
    {
        name: "Red Bottle",
        price: 299,
+       img: '/img/product_pic12.png',
    }
 ];
  
@@ -37,14 +41,14 @@ function wishlistNumbers(product) {
        
    }
  
-   setItems(product);
+   setWishItems(product);
  
 }
 
 
 
 
-function setItems(product) {
+function setWishItems(product) {
   
    let wishlistItems = localStorage.getItem("productsInWishlist");
    wishlistItems = JSON.parse(wishlistItems);
@@ -86,6 +90,7 @@ function displayWishlist() {
             console.log(item)
             wishlistContainer.innerHTML += `
             <div class="wishlistproduct">
+                <img src="${item.img}"/>
                 <span>${item.name}</span>
             </div>
             
