@@ -145,6 +145,15 @@
   text-align: center;
 }
 
+.newproducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 50px;
+  flex-wrap: wrap;
+}
+
 .prod-text {
   color: black;
 }
