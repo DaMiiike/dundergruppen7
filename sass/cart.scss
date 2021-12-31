@@ -1,7 +1,9 @@
 .cart-body {
   background-image: url(/img/background.jpg);
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
   backdrop-filter: blur(8px);
 }
 .cart-title {
@@ -64,4 +66,40 @@
     height: auto;
     border-radius: 100px;
   }
+}
+
+/*=============MEDIA QUERIES=============*/
+/*768px 978px 1200px*/
+@media only screen and (max-width: 768px) {
+  .cart-title {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .products-container {
+    width: auto;
+  }
+}
+.products-container {
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .product-title {
+    width: 0;
+  }
+  .product-price {
+    width: 0;
+  }
+  .product-quantity {
+    width: 0;
+  }
+}
+
+
+@media only screen and (max-width: 978px){
+
+.products-container {
+  width: auto;
+}
 }
