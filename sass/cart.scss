@@ -69,7 +69,7 @@
 }
 
 /*=============MEDIA QUERIES=============*/
-/*768px 978px 1200px*/
+
 @media only screen and (max-width: 768px) {
   .cart-title {
     margin-left: 0;
@@ -99,7 +99,7 @@
 
 @media only screen and (max-width: 978px){
 
-.products-container {
-  width: auto;
-}
+  .products-container {
+    width: auto;
+  }
 }

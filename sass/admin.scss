@@ -6,7 +6,8 @@
   display: flex;
   justify-content: center;
   background-image: url(/img/background.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   backdrop-filter: blur(8px);
 }
