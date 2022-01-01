@@ -7,7 +7,7 @@ Waterbottle
 
 # Reflektion kring agilt arbete:  
 
-Länk till vår [Trelloboard] (https://trello.com/b/qOU5SRqJ/gruppuppgift)
+Länk till vår [Trelloboard](https://trello.com/b/qOU5SRqJ/gruppuppgift).
 
 Vilka fördelar och utmaningar ser du med att jobba i ett agilt team mot att jobba i ett klassiskt projekt? 
  
