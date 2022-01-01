@@ -94,8 +94,8 @@ En förbättringspunkt från retro board 1 som vi jobbat med under sprint 2: Und
 
 Vi fick mer gjort och det var lättare att ta sig an flera små stories själv än att arbeta med en stor story tillsammans. 
 
-===================================================
-GIT
+
+# GIT
 
 Merge - 
 
@@ -129,8 +129,7 @@ Merge -
     TLDR: Fix conflicts on your local working branch BEFORE merging into Main branch. By doing so, hopefully it will result in less headache. =)
 
 
-===================================================
-Troubleshooting:
+# Troubleshooting:
 
 
 
@@ -146,4 +145,4 @@ A: Try re-install sass by typing: npm i "node-sass"
 
 Then make some changes in your sass-file
 
-===================================================
+#
