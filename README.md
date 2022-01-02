@@ -1,5 +1,5 @@
 # Dundergruppen7
-###### Made by: Anna, Astrid, Maria & Michael. Students of Medieinstituet. WIE21S.
+###### Made by students of Medieinstitutet class of WIE21S: Anna, Astrid, Maria & Michael.
 
 Gruppuppgift
 
